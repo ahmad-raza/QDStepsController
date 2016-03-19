@@ -10,6 +10,8 @@
 QDStepsController is a iOS swift control that will help developers to implement step based functionality with minimum effort.
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![Alt text](https://cloud.githubusercontent.com/assets/5131811/13901246/e08a1da4-ee3e-11e5-9fdc-7b9efe0d5c52.gif "Sample UI")
+
 ## Requirements
 
 ## Installation
