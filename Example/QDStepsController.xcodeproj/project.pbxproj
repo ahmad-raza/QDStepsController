@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2634FB1C9C0AC6000FB0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2634F41C9C0AC6000FB0A0 /* AppDelegate.swift */; };
+		0A2634FC1C9C0AC6000FB0A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2634F51C9C0AC6000FB0A0 /* HomeViewController.swift */; };
+		0A2634FD1C9C0AC6000FB0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2634F61C9C0AC6000FB0A0 /* Main.storyboard */; };
+		0A2634FF1C9C0AC6000FB0A0 /* StepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2634F81C9C0AC6000FB0A0 /* StepOneViewController.swift */; };
+		0A50B8111C9D8CE4004B1131 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A50B8101C9D8CE4004B1131 /* logo.png */; };
+		0A5233A41C9C182700E4A4AA /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5233A21C9C182700E4A4AA /* back_arrow.png */; };
+		0A5233B11C9C1C7C00E4A4AA /* StepFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5233AE1C9C1C7C00E4A4AA /* StepFourViewController.swift */; };
+		0A5233B21C9C1C7C00E4A4AA /* StepThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5233AF1C9C1C7C00E4A4AA /* StepThreeViewController.swift */; };
+		0A5233B31C9C1C7C00E4A4AA /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5233B01C9C1C7C00E4A4AA /* StepTwoViewController.swift */; };
+		0A5233B51C9C281300E4A4AA /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5233B41C9C281300E4A4AA /* img.png */; };
 		0E3981B3174412088D36B975 /* Pods_QDStepsController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BE22F18EB1D0E38ED2EC1B /* Pods_QDStepsController_Example.framework */; };
 		3A58FD8D7CF20A69E32FE265 /* Pods_QDStepsController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E170BB29A3311FDD123C62 /* Pods_QDStepsController_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -28,15 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2634F41C9C0AC6000FB0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A2634F51C9C0AC6000FB0A0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A2634F61C9C0AC6000FB0A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0A2634F81C9C0AC6000FB0A0 /* StepOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepOneViewController.swift; sourceTree = "<group>"; };
+		0A50B8101C9D8CE4004B1131 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0A5233A21C9C182700E4A4AA /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow.png; sourceTree = "<group>"; };
+		0A5233AE1C9C1C7C00E4A4AA /* StepFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepFourViewController.swift; sourceTree = "<group>"; };
+		0A5233AF1C9C1C7C00E4A4AA /* StepThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepThreeViewController.swift; sourceTree = "<group>"; };
+		0A5233B01C9C1C7C00E4A4AA /* StepTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
+		0A5233B41C9C281300E4A4AA /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 		0EFDE1714122F69C3B259234 /* Pods-QDStepsController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDStepsController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDStepsController_Example/Pods-QDStepsController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1BEBF16ECD5A8D6ABF382506 /* QDStepsController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QDStepsController.podspec; path = ../QDStepsController.podspec; sourceTree = "<group>"; };
 		2D90CA9281032D05B09B84EA /* Pods-QDStepsController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDStepsController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QDStepsController_Tests/Pods-QDStepsController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C78BA78B28812E537FAE114 /* Pods-QDStepsController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDStepsController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDStepsController_Tests/Pods-QDStepsController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QDStepsController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDStepsController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* QDStepsController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QDStepsController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5233A11C9C181B00E4A4AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A50B8101C9D8CE4004B1131 /* logo.png */,
+				0A5233B41C9C281300E4A4AA /* img.png */,
+				0A5233A21C9C182700E4A4AA /* back_arrow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1858C72D9BA5A89B3EB5613C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +128,14 @@
 		607FACD21AFB9204008FA782 /* Example for QDStepsController */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				0A5233A11C9C181B00E4A4AA /* Resources */,
+				0A2634F41C9C0AC6000FB0A0 /* AppDelegate.swift */,
+				0A2634F51C9C0AC6000FB0A0 /* HomeViewController.swift */,
+				0A2634F61C9C0AC6000FB0A0 /* Main.storyboard */,
+				0A5233AE1C9C1C7C00E4A4AA /* StepFourViewController.swift */,
+				0A5233AF1C9C1C7C00E4A4AA /* StepThreeViewController.swift */,
+				0A5233B01C9C1C7C00E4A4AA /* StepTwoViewController.swift */,
+				0A2634F81C9C0AC6000FB0A0 /* StepOneViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -246,7 +275,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				0A5233A41C9C182700E4A4AA /* back_arrow.png in Resources */,
+				0A2634FD1C9C0AC6000FB0A0 /* Main.storyboard in Resources */,
+				0A50B8111C9D8CE4004B1131 /* logo.png in Resources */,
+				0A5233B51C9C281300E4A4AA /* img.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -359,8 +391,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0A2634FB1C9C0AC6000FB0A0 /* AppDelegate.swift in Sources */,
+				0A5233B21C9C1C7C00E4A4AA /* StepThreeViewController.swift in Sources */,
+				0A2634FC1C9C0AC6000FB0A0 /* HomeViewController.swift in Sources */,
+				0A5233B11C9C1C7C00E4A4AA /* StepFourViewController.swift in Sources */,
+				0A2634FF1C9C0AC6000FB0A0 /* StepOneViewController.swift in Sources */,
+				0A5233B31C9C1C7C00E4A4AA /* StepTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,14 +419,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -489,11 +517,13 @@
 			baseConfigurationReference = 0EFDE1714122F69C3B259234 /* Pods-QDStepsController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = QDStepsController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -502,6 +532,7 @@
 			baseConfigurationReference = FDAB7F4EF565FB71F1EA61DF /* Pods-QDStepsController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = QDStepsController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

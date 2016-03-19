@@ -1,0 +1,14 @@
+PODS:
+  - QDStepsController (0.1.6)
+
+DEPENDENCIES:
+  - QDStepsController (from `../`)
+
+EXTERNAL SOURCES:
+  QDStepsController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QDStepsController: 14ddbb5560779ba9d38bfeacab223b5bbeea402b
+
+COCOAPODS: 0.39.0

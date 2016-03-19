@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058977DCCC5C06D440DD8630FA657566 /* PagerBar.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5C1DFA7FE199B7B275A90DCBCB29A347 /* PagerBar.xib */; };
+		104CFA25ACC39BF3485DE525E500EB60 /* QDStepsController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D28568D448B6118E316DED0301D8896 /* QDStepsController.bundle */; };
+		11787404D0FBD78718B7E09A3BD668F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		292567530D8E60AF03370D62D57BCAD7 /* QDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6EB446DFFFEC80F645FFA32E06373 /* QDNavigationController.swift */; };
+		2FD344F0A4771059D78BA5172BD40202 /* QDStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451EC6594D70BEE0D14D5B2163EF1B7 /* QDStepViewController.swift */; };
+		3038E2809D2B4B2CAC6EECAC229D63E0 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A18437F6B4888757D113EFFCB9A7E2 /* UIColorExtensions.swift */; };
+		3B18B1C61B56447C33684070687AC5CF /* QDStepsController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B482DFCB6DB52E010F93746C7C6D876A /* QDStepsController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E02D0E32C43FD5088444776F6108192 /* Pods-QDStepsController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFACC745B520A6D8D59D0DDA760A84B /* Pods-QDStepsController_Tests-dummy.m */; };
+		6A3544096FAF1D5862B046446A3C57D4 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261A956029F99120F0CEDDEBAFEDCAA /* PagerView.swift */; };
+		709954290F6B190AFCC7951B41F95FFF /* QDStepsController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4026EDF6F268516D2C34E591358988 /* QDStepsController-dummy.m */; };
+		973882385A38F54CB2B9A95DCC7A0DA3 /* Pods-QDStepsController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B519E52340AC9DCFD2EAD015863F6D /* Pods-QDStepsController_Example-dummy.m */; };
+		9E56670EBAFEFE114729EA87491C688E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A912A2FA2953D9506E123C3783926FE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700633580B8F0BE169A26D9767B7D3D /* Constants.swift */; };
+		D629AB9D1CE9EA8795902109C6197B6F /* Pods-QDStepsController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAE403849AD6334F116853D90C9AE02 /* Pods-QDStepsController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A092F2B6EA0F96E13498885BE41166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FC51890AEA3C764514508F384727378C /* Pods-QDStepsController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B7CC0B5CBE561AC1489A411438C5DD /* Pods-QDStepsController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD17B81D053DA9BFE03F4BC11D612AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 126BF562C8C53AB39A54611E4AEB4694;
+			remoteInfo = QDStepsController;
+		};
+		DAF826D950513C3896B932C214869FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B6A6EA1D0E0A7F27F8787194450681B;
+			remoteInfo = "QDStepsController-QDStepsController";
+		};
+		F5D20A3EC78258A11D3972FFF737B66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 126BF562C8C53AB39A54611E4AEB4694;
+			remoteInfo = QDStepsController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B7CC0B5CBE561AC1489A411438C5DD /* Pods-QDStepsController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QDStepsController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		03B7F8BC730057AE37FB2F55ACF02CEB /* Pods-QDStepsController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QDStepsController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		064559FE83988503BDDCC885E11B4ED7 /* QDStepsController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QDStepsController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BAE403849AD6334F116853D90C9AE02 /* Pods-QDStepsController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QDStepsController_Example-umbrella.h"; sourceTree = "<group>"; };
+		1D28568D448B6118E316DED0301D8896 /* QDStepsController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QDStepsController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2700633580B8F0BE169A26D9767B7D3D /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		34D1F7DCED26F8DCF621176FA5C02AC9 /* Pods-QDStepsController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDStepsController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		353FAE476AF833DFEB854D98E39873E4 /* Pods-QDStepsController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDStepsController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40A18437F6B4888757D113EFFCB9A7E2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		51D2D77C93237F2DAC3170BA4C7027E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5948CEAF71AC788321018571A8CB93D7 /* Pods_QDStepsController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QDStepsController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1DFA7FE199B7B275A90DCBCB29A347 /* PagerBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PagerBar.xib; sourceTree = "<group>"; };
+		6DFACC745B520A6D8D59D0DDA760A84B /* Pods-QDStepsController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QDStepsController_Tests-dummy.m"; sourceTree = "<group>"; };
+		74A37E4740C5EAB57AEBFED2B76BB729 /* QDStepsController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QDStepsController.xcconfig; sourceTree = "<group>"; };
+		8BC24DFC847E4B58FF8BAEB97E936499 /* Pods_QDStepsController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QDStepsController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E6EB446DFFFEC80F645FFA32E06373 /* QDNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QDNavigationController.swift; sourceTree = "<group>"; };
+		ACF0C29BD888924251CD37603B7934A1 /* Pods-QDStepsController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDStepsController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ADEBE56E59948D3804B6BEAFF765B3F5 /* Pods-QDStepsController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QDStepsController_Example.modulemap"; sourceTree = "<group>"; };
+		B16BD9EAC8E52680953F97C9CBF046F8 /* Pods-QDStepsController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDStepsController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B482DFCB6DB52E010F93746C7C6D876A /* QDStepsController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QDStepsController-umbrella.h"; sourceTree = "<group>"; };
+		B690E5C0D5C992676BA8A0926FFE2AA2 /* Pods-QDStepsController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDStepsController_Example-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC4026EDF6F268516D2C34E591358988 /* QDStepsController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QDStepsController-dummy.m"; sourceTree = "<group>"; };
+		C5110226E3A2165BAA73C3124B677FC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92A318DAD3203791AD4E1D480123CAF /* Pods-QDStepsController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDStepsController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFA0C3B41255DB2BC18EA54D03FC28BC /* Pods-QDStepsController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QDStepsController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D13489E1C57CBE45581249998AFEB5F6 /* Pods-QDStepsController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QDStepsController_Tests.modulemap"; sourceTree = "<group>"; };
+		D261A956029F99120F0CEDDEBAFEDCAA /* PagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		D451EC6594D70BEE0D14D5B2163EF1B7 /* QDStepViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QDStepViewController.swift; sourceTree = "<group>"; };
+		D8B519E52340AC9DCFD2EAD015863F6D /* Pods-QDStepsController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QDStepsController_Example-dummy.m"; sourceTree = "<group>"; };
+		E1F7C737A6F45FC7DDB4DFBB6E88AD13 /* Pods-QDStepsController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QDStepsController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5146C66E4EA6249537E7FFC0685FE95 /* QDStepsController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QDStepsController-prefix.pch"; sourceTree = "<group>"; };
+		E813FCC4461336BEF22BD8B550BA36FE /* Pods-QDStepsController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QDStepsController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF3965F62B8EB1A0B49E41A5F03D58C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A134712D8664CE40FA5CA02F975973 /* Pods-QDStepsController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDStepsController_Tests-resources.sh"; sourceTree = "<group>"; };
+		F4C330379B956A06FEC00E3B36193A60 /* QDStepsController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QDStepsController.modulemap; sourceTree = "<group>"; };
+		FDF6E2692E79AE519611C1B050EF5D5A /* Pods-QDStepsController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDStepsController_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035FE0CDCFC20E6678122EE32E4D158F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11787404D0FBD78718B7E09A3BD668F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1149B18E3EC081DC2C0A8953ADF61E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F968F70D64817243D1B66E0D82FD4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A092F2B6EA0F96E13498885BE41166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19A8BD638B72E8495AE63C341EC3F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E56670EBAFEFE114729EA87491C688E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAFA87E3C2EAF6D72347E5EF94827F8 /* Pods-QDStepsController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51D2D77C93237F2DAC3170BA4C7027E0 /* Info.plist */,
+				D13489E1C57CBE45581249998AFEB5F6 /* Pods-QDStepsController_Tests.modulemap */,
+				CFA0C3B41255DB2BC18EA54D03FC28BC /* Pods-QDStepsController_Tests-acknowledgements.markdown */,
+				03B7F8BC730057AE37FB2F55ACF02CEB /* Pods-QDStepsController_Tests-acknowledgements.plist */,
+				6DFACC745B520A6D8D59D0DDA760A84B /* Pods-QDStepsController_Tests-dummy.m */,
+				353FAE476AF833DFEB854D98E39873E4 /* Pods-QDStepsController_Tests-frameworks.sh */,
+				F1A134712D8664CE40FA5CA02F975973 /* Pods-QDStepsController_Tests-resources.sh */,
+				03B7CC0B5CBE561AC1489A411438C5DD /* Pods-QDStepsController_Tests-umbrella.h */,
+				C92A318DAD3203791AD4E1D480123CAF /* Pods-QDStepsController_Tests.debug.xcconfig */,
+				B16BD9EAC8E52680953F97C9CBF046F8 /* Pods-QDStepsController_Tests.release.xcconfig */,
+			);
+			name = "Pods-QDStepsController_Tests";
+			path = "Target Support Files/Pods-QDStepsController_Tests";
+			sourceTree = "<group>";
+		};
+		1EAC7F06AA870FAB79BDC61821B151E6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AB4DC8D38D2794CEE867975796C64445 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		2E5F01089BCFE78D508A0E8EF6D70629 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5110226E3A2165BAA73C3124B677FC5 /* Info.plist */,
+				F4C330379B956A06FEC00E3B36193A60 /* QDStepsController.modulemap */,
+				74A37E4740C5EAB57AEBFED2B76BB729 /* QDStepsController.xcconfig */,
+				BC4026EDF6F268516D2C34E591358988 /* QDStepsController-dummy.m */,
+				E5146C66E4EA6249537E7FFC0685FE95 /* QDStepsController-prefix.pch */,
+				B482DFCB6DB52E010F93746C7C6D876A /* QDStepsController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QDStepsController";
+			sourceTree = "<group>";
+		};
+		6193BA0F9507A0EF60D4DCD909463BBD /* Pods-QDStepsController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EF3965F62B8EB1A0B49E41A5F03D58C3 /* Info.plist */,
+				ADEBE56E59948D3804B6BEAFF765B3F5 /* Pods-QDStepsController_Example.modulemap */,
+				E1F7C737A6F45FC7DDB4DFBB6E88AD13 /* Pods-QDStepsController_Example-acknowledgements.markdown */,
+				E813FCC4461336BEF22BD8B550BA36FE /* Pods-QDStepsController_Example-acknowledgements.plist */,
+				D8B519E52340AC9DCFD2EAD015863F6D /* Pods-QDStepsController_Example-dummy.m */,
+				34D1F7DCED26F8DCF621176FA5C02AC9 /* Pods-QDStepsController_Example-frameworks.sh */,
+				B690E5C0D5C992676BA8A0926FFE2AA2 /* Pods-QDStepsController_Example-resources.sh */,
+				0BAE403849AD6334F116853D90C9AE02 /* Pods-QDStepsController_Example-umbrella.h */,
+				ACF0C29BD888924251CD37603B7934A1 /* Pods-QDStepsController_Example.debug.xcconfig */,
+				FDF6E2692E79AE519611C1B050EF5D5A /* Pods-QDStepsController_Example.release.xcconfig */,
+			);
+			name = "Pods-QDStepsController_Example";
+			path = "Target Support Files/Pods-QDStepsController_Example";
+			sourceTree = "<group>";
+		};
+		6FEBF63B53BA02A1AD814394296D91E2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EBF3E1127C1BAFE003F43BDF9FB6F7E /* QDStepsController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6FEBF63B53BA02A1AD814394296D91E2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EE5CDA95341712630C7E0E37A5C86174 /* Products */,
+				8797DA849EC74C180BF926878DE810BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EBF3E1127C1BAFE003F43BDF9FB6F7E /* QDStepsController */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC7F06AA870FAB79BDC61821B151E6 /* Pod */,
+				2E5F01089BCFE78D508A0E8EF6D70629 /* Support Files */,
+			);
+			name = QDStepsController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8797DA849EC74C180BF926878DE810BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6193BA0F9507A0EF60D4DCD909463BBD /* Pods-QDStepsController_Example */,
+				1CAFA87E3C2EAF6D72347E5EF94827F8 /* Pods-QDStepsController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB4DC8D38D2794CEE867975796C64445 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2700633580B8F0BE169A26D9767B7D3D /* Constants.swift */,
+				5C1DFA7FE199B7B275A90DCBCB29A347 /* PagerBar.xib */,
+				D261A956029F99120F0CEDDEBAFEDCAA /* PagerView.swift */,
+				98E6EB446DFFFEC80F645FFA32E06373 /* QDNavigationController.swift */,
+				D451EC6594D70BEE0D14D5B2163EF1B7 /* QDStepViewController.swift */,
+				40A18437F6B4888757D113EFFCB9A7E2 /* UIColorExtensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE5CDA95341712630C7E0E37A5C86174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC24DFC847E4B58FF8BAEB97E936499 /* Pods_QDStepsController_Example.framework */,
+				5948CEAF71AC788321018571A8CB93D7 /* Pods_QDStepsController_Tests.framework */,
+				1D28568D448B6118E316DED0301D8896 /* QDStepsController.bundle */,
+				064559FE83988503BDDCC885E11B4ED7 /* QDStepsController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F5972D02C04F75379823BB2DFDC5428 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC51890AEA3C764514508F384727378C /* Pods-QDStepsController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C508E37B804C34C70B001BEA4DE847D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B18B1C61B56447C33684070687AC5CF /* QDStepsController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E913C74D187E71B5285B9F88C355C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D629AB9D1CE9EA8795902109C6197B6F /* Pods-QDStepsController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		126BF562C8C53AB39A54611E4AEB4694 /* QDStepsController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B0CCAC8BF863838AD158BA1634DB8A /* Build configuration list for PBXNativeTarget "QDStepsController" */;
+			buildPhases = (
+				3693E77A703024414F5CE5D4023AD285 /* Sources */,
+				035FE0CDCFC20E6678122EE32E4D158F /* Frameworks */,
+				4C0AE081955D61856A6FA937EE826DCE /* Resources */,
+				C508E37B804C34C70B001BEA4DE847D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B513E2608BECC1D79846D83DA76F864 /* PBXTargetDependency */,
+			);
+			name = QDStepsController;
+			productName = QDStepsController;
+			productReference = 064559FE83988503BDDCC885E11B4ED7 /* QDStepsController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B6A6EA1D0E0A7F27F8787194450681B /* QDStepsController-QDStepsController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022090C674946307B057CD67E17C0DDE /* Build configuration list for PBXNativeTarget "QDStepsController-QDStepsController" */;
+			buildPhases = (
+				83DB2A26A7CC825D894B03ADF361F8E3 /* Sources */,
+				1149B18E3EC081DC2C0A8953ADF61E9B /* Frameworks */,
+				46F832D5DBDA2D1A5E267B87E7446068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QDStepsController-QDStepsController";
+			productName = "QDStepsController-QDStepsController";
+			productReference = 1D28568D448B6118E316DED0301D8896 /* QDStepsController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5CE4A6D3CD738E9556282AB798BFF69A /* Pods-QDStepsController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A516D481DD49D4B6653D1EDF28CCBF /* Build configuration list for PBXNativeTarget "Pods-QDStepsController_Example" */;
+			buildPhases = (
+				173B04BCC9BC21D86A54AAAEE8756C1F /* Sources */,
+				9F968F70D64817243D1B66E0D82FD4E8 /* Frameworks */,
+				D9E913C74D187E71B5285B9F88C355C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDFA5AB7814394BD3A1992BF2F5A4D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-QDStepsController_Example";
+			productName = "Pods-QDStepsController_Example";
+			productReference = 8BC24DFC847E4B58FF8BAEB97E936499 /* Pods_QDStepsController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C60448022129D39C89A60209765F83C /* Pods-QDStepsController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3D2DB24E854A3A8E8B0F2FB86ECC2A /* Build configuration list for PBXNativeTarget "Pods-QDStepsController_Tests" */;
+			buildPhases = (
+				5FEF17E0866C829BD8F0E1FE79AB7310 /* Sources */,
+				F19A8BD638B72E8495AE63C341EC3F83 /* Frameworks */,
+				1F5972D02C04F75379823BB2DFDC5428 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62420256425CDEB16B7E87533ACDB0B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-QDStepsController_Tests";
+			productName = "Pods-QDStepsController_Tests";
+			productReference = 5948CEAF71AC788321018571A8CB93D7 /* Pods_QDStepsController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE5CDA95341712630C7E0E37A5C86174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CE4A6D3CD738E9556282AB798BFF69A /* Pods-QDStepsController_Example */,
+				6C60448022129D39C89A60209765F83C /* Pods-QDStepsController_Tests */,
+				126BF562C8C53AB39A54611E4AEB4694 /* QDStepsController */,
+				2B6A6EA1D0E0A7F27F8787194450681B /* QDStepsController-QDStepsController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F832D5DBDA2D1A5E267B87E7446068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0AE081955D61856A6FA937EE826DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104CFA25ACC39BF3485DE525E500EB60 /* QDStepsController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173B04BCC9BC21D86A54AAAEE8756C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973882385A38F54CB2B9A95DCC7A0DA3 /* Pods-QDStepsController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3693E77A703024414F5CE5D4023AD285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A912A2FA2953D9506E123C3783926FE9 /* Constants.swift in Sources */,
+				058977DCCC5C06D440DD8630FA657566 /* PagerBar.xib in Sources */,
+				6A3544096FAF1D5862B046446A3C57D4 /* PagerView.swift in Sources */,
+				292567530D8E60AF03370D62D57BCAD7 /* QDNavigationController.swift in Sources */,
+				709954290F6B190AFCC7951B41F95FFF /* QDStepsController-dummy.m in Sources */,
+				2FD344F0A4771059D78BA5172BD40202 /* QDStepViewController.swift in Sources */,
+				3038E2809D2B4B2CAC6EECAC229D63E0 /* UIColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEF17E0866C829BD8F0E1FE79AB7310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E02D0E32C43FD5088444776F6108192 /* Pods-QDStepsController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DB2A26A7CC825D894B03ADF361F8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CDFA5AB7814394BD3A1992BF2F5A4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QDStepsController;
+			target = 126BF562C8C53AB39A54611E4AEB4694 /* QDStepsController */;
+			targetProxy = F5D20A3EC78258A11D3972FFF737B66A /* PBXContainerItemProxy */;
+		};
+		5B513E2608BECC1D79846D83DA76F864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QDStepsController-QDStepsController";
+			target = 2B6A6EA1D0E0A7F27F8787194450681B /* QDStepsController-QDStepsController */;
+			targetProxy = DAF826D950513C3896B932C214869FFE /* PBXContainerItemProxy */;
+		};
+		62420256425CDEB16B7E87533ACDB0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QDStepsController;
+			target = 126BF562C8C53AB39A54611E4AEB4694 /* QDStepsController */;
+			targetProxy = CD17B81D053DA9BFE03F4BC11D612AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179257E961E2223E0CBBDE336C4D9779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A37E4740C5EAB57AEBFED2B76BB729 /* QDStepsController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = QDStepsController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		32F72C1FA31A68AEA4D29624E1BFE026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF0C29BD888924251CD37603B7934A1 /* Pods-QDStepsController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QDStepsController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QDStepsController_Example/Pods-QDStepsController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QDStepsController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52F020A974AFB8483A3196F4A769607F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A37E4740C5EAB57AEBFED2B76BB729 /* QDStepsController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = QDStepsController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		697A6565F976672DF6EEACE82463F6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92A318DAD3203791AD4E1D480123CAF /* Pods-QDStepsController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QDStepsController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QDStepsController_Tests/Pods-QDStepsController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QDStepsController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81BAABFF877926D2B8EEA726D13F54E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16BD9EAC8E52680953F97C9CBF046F8 /* Pods-QDStepsController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QDStepsController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QDStepsController_Tests/Pods-QDStepsController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QDStepsController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABF644D2E6F3C2FC861FD872ED47CA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A37E4740C5EAB57AEBFED2B76BB729 /* QDStepsController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QDStepsController/QDStepsController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QDStepsController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QDStepsController/QDStepsController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QDStepsController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E109788351E0AE60E82641C2B4190163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A37E4740C5EAB57AEBFED2B76BB729 /* QDStepsController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QDStepsController/QDStepsController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QDStepsController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QDStepsController/QDStepsController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QDStepsController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE9CEDD18D8C65EA9CEA562C777E3201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF6E2692E79AE519611C1B050EF5D5A /* Pods-QDStepsController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QDStepsController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QDStepsController_Example/Pods-QDStepsController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QDStepsController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022090C674946307B057CD67E17C0DDE /* Build configuration list for PBXNativeTarget "QDStepsController-QDStepsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F020A974AFB8483A3196F4A769607F /* Debug */,
+				179257E961E2223E0CBBDE336C4D9779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B0CCAC8BF863838AD158BA1634DB8A /* Build configuration list for PBXNativeTarget "QDStepsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF644D2E6F3C2FC861FD872ED47CA07 /* Debug */,
+				E109788351E0AE60E82641C2B4190163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3D2DB24E854A3A8E8B0F2FB86ECC2A /* Build configuration list for PBXNativeTarget "Pods-QDStepsController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697A6565F976672DF6EEACE82463F6B0 /* Debug */,
+				81BAABFF877926D2B8EEA726D13F54E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A516D481DD49D4B6653D1EDF28CCBF /* Build configuration list for PBXNativeTarget "Pods-QDStepsController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F72C1FA31A68AEA4D29624E1BFE026 /* Debug */,
+				EE9CEDD18D8C65EA9CEA562C777E3201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

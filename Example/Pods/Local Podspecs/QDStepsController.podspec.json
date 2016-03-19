@@ -1,0 +1,25 @@
+{
+  "name": "QDStepsController",
+  "version": "0.1.6",
+  "summary": "QDStepsController is step based controllers for signup or other features.",
+  "description": "This cocoapods provides ability to create steps based signup or other view controllers",
+  "homepage": "https://github.com/ahmad-raza/QDStepsController",
+  "license": "MIT",
+  "authors": {
+    "ahmadraza": "ahmadraza036@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/QDStepsController.git",
+    "tag": "0.1.6"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "QDStepsController": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

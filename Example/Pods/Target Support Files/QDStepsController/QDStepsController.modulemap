@@ -1,0 +1,6 @@
+framework module QDStepsController {
+  umbrella header "QDStepsController-umbrella.h"
+
+  export *
+  module * { export * }
+}

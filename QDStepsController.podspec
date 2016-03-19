@@ -8,23 +8,22 @@
 
 Pod::Spec.new do |s|
   s.name             = "QDStepsController"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of QDStepsController."
+  s.version          = "1.0.0"
+  s.summary          = "QDStepsController is a iOS swift control that will help developers to implement step based functionality with minimum effort."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "QDStepsController will help developer to implement step by step guides for user within their application."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/QDStepsController"
+  s.homepage         = "https://github.com/ahmad-raza/QDStepsController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "ahmadraza" => "ahmadraza036@yahoo.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/QDStepsController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/ahmad-raza/QDStepsController.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/Ahmad_Rza'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  QDStepsController
 //
-//  Created by ahmadraza on 03/18/2016.
+//  Created by ahmadraza on 03/17/2016.
 //  Copyright (c) 2016 ahmadraza. All rights reserved.
 //
 
