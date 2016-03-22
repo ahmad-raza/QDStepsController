@@ -12,16 +12,24 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ![Alt text](https://cloud.githubusercontent.com/assets/5131811/13901246/e08a1da4-ee3e-11e5-9fdc-7b9efe0d5c52.gif "Sample UI")
 
-## Requirements
-
 ## Installation
+You need to take care of following three points in order to integrate QDStepsController inside your application:
+    -Inherit your UINavigationController from QDNavigationController.
+    -Inherit all your UIViewController(steps) from QDStepViewController
+    -Assign step number to each UIViewController by calling setStepNumber() from their viewDidLoad(). 
 
+Hurrah, all setup. You're good to launch and test it.
+
+#CocoaPods
 QDStepsController is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "QDStepsController"
 ```
+
+#Manual
+Add all files from QDStepsController/Pod/Classes to your project and follow the steps mentioned above for Installation.
 
 ## Author
 
