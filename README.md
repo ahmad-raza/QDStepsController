@@ -14,9 +14,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 You need to take care of following three points in order to integrate QDStepsController inside your application:  
-...1. Inherit your UINavigationController from QDNavigationController.
-...2. Inherit all your UIViewController(steps) from QDStepViewController
-...3. Assign step number to each UIViewController by calling setStepNumber() from their viewDidLoad().   
+* Inherit your UINavigationController from QDNavigationController.
+* Inherit all your UIViewController(steps) from QDStepViewController.
+* Assign step number to each UIViewController by calling setStepNumber() from their viewDidLoad().   
   
 
 Hurrah, all setup. You're good to launch and test it.
