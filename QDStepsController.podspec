@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = "QDStepsController"
   s.version          = "1.0.0"
-  s.summary          = "QDStepsController is a iOS swift control that will help developers to implement step based functionality with minimum effort."
+  s.summary          = "QDStepsController is an awesome iOS swift control that will help developers to implement step based functionality with minimum effort."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "QDStepsController will help developer to implement step by step guides for user within their application."
+  s.description      = "QDStepsController is a simple swift control that will help developer to implement step by step guides for user within their application. Developers would be able to create a maximum number of steps and navigate through them without writing any line of code!"
 
   s.homepage         = "https://github.com/ahmad-raza/QDStepsController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'QDStepsController' => ['Pod/Assets/*.png']
-  }
+#s.resource_bundles = {
+#    'QDStepsController' => ['Pod/Assets/*.png']
+# }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
